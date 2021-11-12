@@ -1,0 +1,6 @@
+string rosBagFile
+string[] topicsToReplay
+bool useDefaultTopics
+bool startReplay
+---
+bool replayActive

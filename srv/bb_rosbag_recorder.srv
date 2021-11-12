@@ -1,0 +1,7 @@
+string rosBagFile
+string[] topicsToRecord
+bool useDefaultTopics
+bool startRecording
+---
+bool recordingActive
+string recordingStatus

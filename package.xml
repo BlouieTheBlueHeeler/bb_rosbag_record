@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>bb_data_recording</name>
+  <version>0.0.1</version>
+  <description>
+    Rosbag data acquisition helper.
+  </description>
+  <license>Apache 2.0</license>
+  <author email="bluish.gecko@gmail.com">Blouie The Blue Heeler</author>
+  <maintainer email="bluish.gecko@gmail.com">Blouie The Blue Heeler</maintainer>
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roscpp</depend>
+  <depend>std_msgs</depend>
+  <depend>diagnostic_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_generation</exec_depend>
+  <exec_depend>message_runtime</exec_depend>
+</package>

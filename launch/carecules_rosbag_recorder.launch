@@ -1,0 +1,7 @@
+<launch>
+  <arg name="rosbag_base_path" default="/robot_data/ROSBags"/>
+  <rosparam file="$(find carecules_data_recording)/config/rosbag_recorder_config.yaml" />
+  <node pkg="carecules_data_recording" type="carecules_rosbag_record.py" name="carecules_rosbag_recorder" output="screen">
+    <param name="rosbag_base_path" value="$(arg rosbag_base_path)"/>
+  </node>
+</launch>
